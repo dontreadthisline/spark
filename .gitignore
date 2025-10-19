@@ -4,3 +4,4 @@
 **/spark.egg-info/
 *.pyc
 *.so
+data/
