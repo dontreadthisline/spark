@@ -1,0 +1,21 @@
+// filepath: /mnt/c/Users/projects/dlsystem/hw0/.vscode/c_cpp_properties.json
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/include/**",
+        "/usr/local/include",
+        //"/mnt/c/Users/projects/dlsystem/sparke/.venv/lib/python3.14/site-packages/pybind11/include",
+        "${workspaceFolder}/.venv/lib/python3.14/site-packages/pybind11/include"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

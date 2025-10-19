@@ -1,0 +1,17 @@
+[project]
+name = "spark"
+version = "0.1.0"
+description = "一点火苗,Just Work"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numdifftools>=0.9.41",
+    "numpy>=2.3.4",
+    "pybind11>=3.0.1",
+    "pytest>=8.4.2",
+]
+
+[[tool.uv.index]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
